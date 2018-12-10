@@ -63,6 +63,8 @@ else:
 # html_theme_options = {}
 
 html_static_path = ['_static']
+html_favicon = "_static/mars.ico"
+html_logo = "_static/mars.png"
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
