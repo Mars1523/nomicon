@@ -1,0 +1,17 @@
+language: python
+python:
+  - "3.7-dev"
+install:
+  - pip install -r requirements.txt
+script:
+  - make html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GH_TOKEN"
+  local-dir: build/html
+  on:
+    branch: master
+env:
+  global:
+    secure: "tOlsBhNii2oIpMsWKuNEPDRMgx+IRlOxIVGpoPAcqylIsMh7CpGr67ieCrNCDisXMI8TSZ0ISYpGM2SwISxoQUP0zpddV+rJonLLDPA3AMKaDQAmVMVk+FpcvlIgqJQrw8eoUygFiusT627+vDIIbOHy2+44vTs7CkXTYqDovVSurSSiXyxrWmCYAg0edUD0Lm7PpS9MHAi44N8H9iPJZe8eO5LXJakHb3RVLIohIjmK1X8mzPyHeFsHd662bGXMvpXAFY7AnIxsyawXT/T4mhuCZOti3JlMseo8n7WjsEOYuih97gJEGsuijEljxGBOt/Ej8brsB/zzjpg+O3yU1hs62H4XPzRCnqt0wp5e/wdQaayXDygdNlhZMbPMEbrbwqsnc+F0mFAUNC6sM7G94+nRSwfe6lhh9tiga6KDFIejp/23tP9A9d36jC+MKLh3eNQqTJkQemf7V71gd2w+gNZu0fonhr1ZJVjCXTNb6nrJPUm/vCOK+stfkBhCqT2dNTUkZPvWxinpExFgy1wFMK9fWCPWUp59xaoRDDXvH0A531mte2z6Wl1RBP4nZ+1BZvpmBFIilc2UcPlatDONaUwMATpL+FiDnumG+mDa9UOstgMJ1TJaRso8I+4DXwwfPBSvoEJAAbZnvySWszHwugKkXeOpUiPTvzy+i6/fbEY="
