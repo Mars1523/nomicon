@@ -28,6 +28,11 @@ everything you would ever need to know to program a robot.
 At the very least, you must read chapters 1-4 and chapter 9 which explains
 classes, which are the building blocks of the robot.
 
+If you're too lazy to even look at the official tutorial `here's <https://robotpy.readthedocs.io/en/stable/guide/index.html>`_
+the official
+Readthedocs for robotpy. Read all of this,and you'll be pretty much covered.
+
+
 There are also many websites you can use to learn Python.
 
 * `Learn Python the Hard Way`_
