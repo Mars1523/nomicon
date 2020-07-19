@@ -1,0 +1,292 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation and Configuration &mdash; Mars Nomicon 0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/mars.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Simulation" href="../simulation/index.html" />
+    <link rel="prev" title="Programming" href="programming.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Mars Nomicon
+          
+
+          
+            
+            <img src="../_static/mars.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Learning</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="programming.html">Programming</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Installation and Configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-anaconda">Installing Anaconda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-robotpy">Installing RobotPy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../simulation/index.html">Simulation</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mars Nomicon</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Learning</a> &raquo;</li>
+        
+      <li>Installation and Configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/learning/install.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation-and-configuration">
+<h1>Installation and Configuration<a class="headerlink" href="#installation-and-configuration" title="Permalink to this headline">¶</a></h1>
+<p>Basic install guide for the varied resources you’ll find yourselves needing to
+install to develop and deploy code for the robot.</p>
+<div class="section" id="installing-anaconda">
+<h2>Installing Anaconda<a class="headerlink" href="#installing-anaconda" title="Permalink to this headline">¶</a></h2>
+<p>Installing Anaconda is very easy. Simply go <a class="reference external" href="https://www.anaconda.com/download/">here</a> and download the Python 3 version.
+When the installer prompts you to install Visual Studio Code, do so.
+Now that you’ve installed Anaconda, it’s time for you to install dependencies.</p>
+<p>Open the anaconda prompt and type</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge pyhamcrest
+</pre></div>
+</div>
+</div>
+<div class="section" id="installing-robotpy">
+<h2>Installing RobotPy<a class="headerlink" href="#installing-robotpy" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The RobotPy docs explain instalation in more detail
+<a class="reference external" href="https://robotpy.readthedocs.io/en/latest/install/pyfrc.html">here</a></p>
+</div>
+<p>To install RobotPy run the command:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>pip install pyfrc
+</pre></div>
+</div>
+<p>Now that you’ve installed PyFRC, there are a few more dependencies to add.
+Grab <code class="code docutils literal notranslate"><span class="pre">robotpy-ctre</span></code> and <code class="code docutils literal notranslate"><span class="pre">robotpy-navx</span></code> with pip.</p>
+<p>It’s now time to tackle the Tensorflow installation, which requires a bit
+more work. unfortunately, Tensorflow does not yet work with Python 3.7, so we
+need to work around that.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As soon as Tensorflow supports 3.7, this will no longer be needed.</p>
+</div>
+<p>One would normally assume that TensorFlow could be
+installed,like you’ve installed everything else. However,Tensorflow
+doesn’t work at all in Python 3.7.  Instead of waiting around for support
+to be added soon™, we’re going to configure a virtual environment in Conda,
+running Python 3.6.7, that will allow us to circumvent that issue.</p>
+<p>First off, you’ll need to open your Conda command line. Type this command.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda update conda
+</pre></div>
+</div>
+<p>Once you’ve updated conda, type the below to create your virtual environment.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda create -n <span class="o">(</span>your name <span class="k">for</span> the virtual env here<span class="o">)</span> <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6.7 anaconda
+</pre></div>
+</div>
+<p>Once you’ve created the virtual environment, you can install tensorflow
+inside the virtual environment, like this:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda activate <span class="o">(</span>your env name here<span class="o">)</span>
+</pre></div>
+</div>
+<p>And then:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda install -n <span class="o">(</span>your name here<span class="o">)</span> tensorflow-gpu
+</pre></div>
+</div>
+<p>Once you’ve done that, congrats, you have Conda installed in your virtual
+environment. To use it, just manually specify the virtual environment
+in VSCode which should be under a file path similar to this.</p>
+<p>C:/Users/(your username here)/Anaconda3/envs/(your env name here)/python.exe
+​</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../simulation/index.html" class="btn btn-neutral float-right" title="Simulation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="programming.html" class="btn btn-neutral float-left" title="Programming" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Noskcaj19
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
